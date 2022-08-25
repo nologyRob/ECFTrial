@@ -1,0 +1,1 @@
+package com.nology.ECF;import javax.persistence.EntityNotFoundException;public class LessonNotFoundException   extends EntityNotFoundException {    public LessonNotFoundException(){        super("Lesson has not been found!");    }}

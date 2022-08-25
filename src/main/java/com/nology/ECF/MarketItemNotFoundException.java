@@ -1,0 +1,1 @@
+package com.nology.ECF;import javax.persistence.EntityNotFoundException;public class MarketItemNotFoundException extends EntityNotFoundException {    public MarketItemNotFoundException(){        super("Market Item has not been found!");    }}
