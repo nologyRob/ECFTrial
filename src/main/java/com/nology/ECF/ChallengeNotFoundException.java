@@ -1,0 +1,1 @@
+package com.nology.ECF;import javax.persistence.EntityNotFoundException;public class ChallengeNotFoundException  extends EntityNotFoundException {    public ChallengeNotFoundException(){        super("Challenge has not been found!");    }}

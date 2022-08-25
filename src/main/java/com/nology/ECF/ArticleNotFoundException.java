@@ -1,0 +1,1 @@
+package com.nology.ECF;import javax.persistence.EntityNotFoundException;public class ArticleNotFoundException extends EntityNotFoundException {    public ArticleNotFoundException(){        super("Article has not been found!");    }}
